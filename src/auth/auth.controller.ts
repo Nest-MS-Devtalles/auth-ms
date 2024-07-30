@@ -16,8 +16,8 @@ export class AuthController {
     return 'loginUser 🔥';
   }
 
-  @MessagePattern('auth.verify.user')
-  verifyUser() {
-    return 'verifyUser 🔥';
+  @MessagePattern('auth.verify.token')
+  verifyToken() {
+    return 'verifyToken 🔥';
   }
 }
